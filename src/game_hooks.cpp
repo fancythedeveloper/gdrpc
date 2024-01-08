@@ -290,14 +290,12 @@ void doTheHook() {
 
   // wall of hooks
   std::array<game_hook, 9> hooks{{
-      CREATE_GD_HOOK(0x1907B0, MenuLayer_init),
-      CREATE_GD_HOOK(0x1FB6D0, PlayLayer_create),
-      CREATE_GD_HOOK(0x20D810, PlayLayer_onQuit),
-      CREATE_GD_HOOK(0x1FE3A0, PlayLayer_showNewBest),
-      CREATE_GD_HOOK(0x75660, EditorPauseLayer_onExitEditor),
-      CREATE_GD_HOOK(0x15ED60, LevelEditorLayer_create),
-      CREATE_GD_HOOK(0x162650, LevelEditorLayer_addSpecial),
-      CREATE_GD_HOOK(0x162FF0, LevelEditorLayer_removeSpecial),
+      CREATE_GD_HOOK(0x18D1EC, MenuLayer_init),
+      CREATE_GD_HOOK(0x83930, PlayLayer_create),
+      CREATE_GD_HOOK(0x17EE20, PlayLayer_onQuit),
+      CREATE_GD_HOOK(0x16D898, PlayLayer_showNewBest),
+      CREATE_GD_HOOK(0x93B01, EditorPauseLayer_onExitEditor),
+      CREATE_GD_HOOK(0x15C21D, LevelEditorLayer_create),
       CREATE_HOOK(
         GetProcAddress(cocos_handle, "?end@CCDirector@cocos2d@@QAEXXZ"),
         CCDirector_end)
