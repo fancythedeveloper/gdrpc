@@ -11,7 +11,7 @@ constexpr int LATEST_VERSION = 4;
 constexpr auto DEFAULT_EXECUTABLE = "SilvrPS.exe";
 constexpr auto DEFAULT_URL = "http://silverragdps.mathieuar.fr";
 constexpr auto DEFAULT_PREFIX = "/";
-constexpr auto DEFAULT_APPLICATION_ID = "(REPLACE)";
+constexpr auto DEFAULT_APPLICATION_ID = "1193768705407066153";
 
 struct Presence {
   std::string detail;
