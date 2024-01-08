@@ -8,10 +8,10 @@ namespace Config {
 
 constexpr int LATEST_VERSION = 4;
 
-constexpr auto DEFAULT_EXECUTABLE = "GeometryDash.exe";
-constexpr auto DEFAULT_URL = "http://boomlings.com";
-constexpr auto DEFAULT_PREFIX = "/database/";
-constexpr auto DEFAULT_APPLICATION_ID = "668228366893056001";
+constexpr auto DEFAULT_EXECUTABLE = "SilvrPS.exe";
+constexpr auto DEFAULT_URL = "http://silverragdps.mathieuar.fr";
+constexpr auto DEFAULT_PREFIX = "/";
+constexpr auto DEFAULT_APPLICATION_ID = "(REPLACE)";
 
 struct Presence {
   std::string detail;

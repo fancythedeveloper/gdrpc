@@ -75,8 +75,8 @@ private:
   std::string post_request(std::string, Params &);
 
 public:
-  GD_Client(std::string host = "http://boomlings.com",
-            std::string prefix = "/database/");
+  GD_Client(std::string host = "http://silverragdps.mathieuar.fr",
+            std::string prefix = "/");
 
   bool get_user_info(int &accID, GDuser &user);
   bool get_player_info(int &playerID, GDuser &user);
